@@ -1,0 +1,187 @@
+body{
+    background-color: #525659;
+}
+body p{
+    color: #606062;
+ font-size: 14px;
+}
+.master{
+    background-color: #525659;
+    width:100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+.paper{
+
+    margin-top: 100px;
+    margin-bottom: 5px;
+    width: 860px;
+    background-color: #e6e6e5;
+    display: flex;
+    box-shadow: 3px 3px 3px 3px rgba(0.5,0.5,0.5,0.5);
+}
+.lateral{
+    background-color: #686a71;
+}
+.conteudo{
+    width: 100%;
+    padding-left: 25px;
+}
+.profile {
+    height: 400px;
+    background-image: url('../img/profile.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    text-align: right;
+   
+}
+
+.personalidade{
+    color: #FFF;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: rgba(233, 177, 40, 0.3);
+    width: 100%;
+    font-style: italic;
+    padding-right: 25px;
+
+
+}
+
+.apresentacao h1{
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 20px;
+    color: #fe7c30;
+    font-style: italic;
+    margin-bottom: 5px;
+    line-height: 1.0;
+    padding-bottom: 20px;
+}
+.profissao{
+    margin-left: -12px;
+    padding-left: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #2e44cb;
+    color: #dfb128;
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 10px;
+  
+}
+.habilidades{
+    margin-top: 23px;
+    padding-top: 18px;
+    padding-bottom: 15px;
+    margin-left: -25px;
+    background-color: #dfb128;
+    padding-left: 25px;
+}
+
+.contatos{
+    text-align: right;
+    color: #FFF;
+    background-color: #3e414a;
+    padding: 25px 0px 10px 10px;
+}
+
+.contatos ul{
+    padding-right: 25px;
+    list-style-type: none;
+    color: #dfb128;
+} 
+.contatos h3{
+    padding-right: 25px;
+    padding-bottom: 0;
+}
+.contatos hr{
+    margin-top: 0rem;
+    height: 1px;
+    background-color: #FFF;
+    margin-right: 10px;
+}
+
+.formacao-titulo{
+
+    text-align: right;
+    padding: 5px;
+    background-color: #2e44cb;
+    color: #FFF;
+    padding-right: 25px;
+}
+.formacao{
+    padding: 10px 25px 10px 25px;
+    text-align: justify;
+    color: #FFF;
+    background-color: #686a70;
+    
+}
+.formacao h4, h5{
+    text-align: right;
+}
+.formacao h4{
+    font-size: 16px;
+    font-weight: bold;
+}
+.formacao h5{
+    font-size: 14px;
+    font-weight: bold;
+
+}
+.formacao p{
+    font-size: 14px;
+}
+
+.formacao p{
+    color: #FFF;
+    margin-bottom: 0px;
+}
+
+.col-md-5{
+    padding-right: 10px !important;
+}
+
+
+.principal{
+    padding-top: 25px;
+    padding-right: 25px;
+}
+
+.principal h4{
+
+    padding-top: 25px;
+    color:#fe7c30;
+}
+
+.bg-success {
+    background-color: #fe7c30 !important;
+}
+.meus_links ul{
+    padding-top: 10px;
+    text-align: center;
+    display: flex;
+    list-style-type: none;
+    color: #FFF;
+ 
+
+}
+.meus_links li{
+    cursor: pointer;
+    margin-right: 25px;
+
+}
+.meus_links i{
+    box-shadow: 1px 1px 1px 1px rgba(0.1,0.1,0.1,0.5);
+    color: #606062;
+    background-color: #FFF;
+    border: solid 2px #FFF;
+    border-radius: 50px;
+}
+
