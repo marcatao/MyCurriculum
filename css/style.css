@@ -134,7 +134,7 @@ body p {
 
 .formacao {
     padding: 10px 25px 10px 25px;
-    text-align: justify;
+    text-align: right;
     color: #FFF;
     background-color: #686a70;
 
@@ -175,6 +175,10 @@ h5 {
 
 .col-md-7 {
     padding-left: 10px !important;
+}
+
+.col-md-7 p {
+    padding-right: 20px !important;
 }
 
 .principal {
@@ -235,5 +239,6 @@ i:hover {
     margin: 10px;
     padding: 0;
     border: solid 3px #FFF;
+    margin-right: 15px;
 
 }
