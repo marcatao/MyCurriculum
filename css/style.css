@@ -1,34 +1,44 @@
-body{
+body {
     background-color: #525659;
 }
-body p{
+
+body p {
     color: #606062;
- font-size: 14px;
+    font-size: 14px;
 }
-.master{
+
+.master {
     background-color: #525659;
-    width:100%;
+    width: 100%;
     height: auto;
     display: flex;
-    justify-content: center;
     padding-bottom: 25px;
+    flex-direction: column;
+    align-items: center;
 }
-.paper{
 
-    margin-top: 100px;
+.meus_links {
+    position: relative;
+}
+
+.paper {
+
     margin-bottom: 5px;
     width: 860px;
     background-color: #e6e6e5;
     display: flex;
-    box-shadow: 3px 3px 3px 3px rgba(0.5,0.5,0.5,0.5);
+    box-shadow: 3px 3px 3px 3px rgba(0.5, 0.5, 0.5, 0.2);
 }
-.lateral{
+
+.lateral {
     background-color: #686a71;
 }
-.conteudo{
+
+.conteudo {
     width: 100%;
     padding-left: 25px;
 }
+
 .profile {
     height: 400px;
     background-image: url('../img/profile.jpg');
@@ -38,10 +48,10 @@ body p{
     display: flex;
     align-items: flex-end;
     text-align: right;
-   
+
 }
 
-.personalidade{
+.personalidade {
     color: #FFF;
     padding: 10px;
     padding-top: 20px;
@@ -54,7 +64,7 @@ body p{
 
 }
 
-.apresentacao h1{
+.apresentacao h1 {
     font-size: 50px;
     font-weight: bold;
     padding-top: 20px;
@@ -64,8 +74,9 @@ body p{
     line-height: 1.0;
     padding-bottom: 20px;
 }
-.profissao{
-    margin-left: -12px;
+
+.profissao {
+
     padding-left: 14px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -74,41 +85,45 @@ body p{
     font-size: 18px;
     font-style: italic;
     margin-bottom: 10px;
-  
+    margin-left: -15px;
+
 }
-.habilidades{
+
+.habilidades {
     margin-top: 23px;
     padding-top: 18px;
     padding-bottom: 15px;
-    margin-left: -25px;
+    margin-left: -20px;
     background-color: #dfb128;
     padding-left: 25px;
 }
 
-.contatos{
+.contatos {
     text-align: right;
     color: #FFF;
     background-color: #3e414a;
     padding: 25px 0px 10px 10px;
 }
 
-.contatos ul{
+.contatos ul {
     padding-right: 25px;
     list-style-type: none;
     color: #dfb128;
-} 
-.contatos h3{
+}
+
+.contatos h3 {
     padding-right: 25px;
     padding-bottom: 0;
 }
-.contatos hr{
+
+.contatos hr {
     margin-top: 0rem;
     height: 1px;
     background-color: #FFF;
     margin-right: 10px;
 }
 
-.formacao-titulo{
+.formacao-titulo {
 
     text-align: right;
     padding: 5px;
@@ -116,72 +131,109 @@ body p{
     color: #FFF;
     padding-right: 25px;
 }
-.formacao{
+
+.formacao {
     padding: 10px 25px 10px 25px;
     text-align: justify;
     color: #FFF;
     background-color: #686a70;
-    
+
 }
-.formacao h4, h5{
+
+.formacao h4,
+h5 {
     text-align: right;
 }
-.formacao h4{
+
+.formacao h4 {
     font-size: 16px;
     font-weight: bold;
 }
-.formacao h5{
+
+.formacao h5 {
     font-size: 14px;
     font-weight: bold;
 
 }
-.formacao p{
+
+.formacao p {
     font-size: 14px;
 }
 
-.formacao p{
+.formacao p {
     color: #FFF;
     margin-bottom: 0px;
+    font-size: 14px;
+    font-weight: 100;
+    padding-bottom: 5px;
+
 }
 
-.col-md-5{
+.col-md-5 {
     padding-right: 10px !important;
 }
 
-
-.principal{
-    padding-top: 25px;
-    padding-right: 25px;
+.col-md-7 {
+    padding-left: 10px !important;
 }
 
-.principal h4{
+.principal {
+    background-color: #e6e6e5;
+}
+
+.auxiliar {
+    background-color: #e6e6e5;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.row {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+
+.principal h4 {
 
     padding-top: 25px;
-    color:#fe7c30;
+    color: #fe7c30;
 }
 
 .bg-success {
     background-color: #fe7c30 !important;
 }
-.meus_links ul{
-    padding-top: 10px;
+
+.meus_links {
+    padding-left: 0px !important;
+}
+
+.meus_links ul {
+    padding-top: 15px;
     text-align: center;
     display: flex;
     list-style-type: none;
     color: #FFF;
- 
-
 }
-.meus_links li{
+
+.meus_links li {
     cursor: pointer;
-    margin-right: 25px;
-
-}
-.meus_links i{
-    box-shadow: 1px 1px 1px 1px rgba(0.1,0.1,0.1,0.5);
-    color: #606062;
-    background-color: #FFF;
-    border: solid 2px #FFF;
-    border-radius: 50px;
+    margin-right: 18px;
+    font-size: 15px !important;
 }
 
+.meus_links i,
+a {
+    color: #FFF;
+}
+
+a:hover,
+i:hover {
+    text-decoration: none;
+    color: #dfb128 !important;
+}
+
+.qrcode {
+    margin: 10px;
+    padding: 0;
+    border: solid 3px #FFF;
+
+}
