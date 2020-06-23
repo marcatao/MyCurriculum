@@ -60,6 +60,7 @@ body p {
     width: 100%;
     font-style: italic;
     padding-right: 25px;
+    height:111px;
 
 
 }
@@ -96,6 +97,8 @@ body p {
     margin-left: -20px;
     background-color: #dfb128;
     padding-left: 25px;
+ 
+
 }
 
 .contatos {
@@ -202,8 +205,14 @@ h5 {
     color: #fe7c30;
 }
 
+.progress{
+    border: solid 2px #525659;
+    padding: 2px;
+}
+
 .bg-success {
     background-color: #fe7c30 !important;
+    
 }
 
 .meus_links {
@@ -241,4 +250,9 @@ i:hover {
     border: solid 3px #FFF;
     margin-right: 15px;
 
+}
+
+.col-md-4{
+    padding-left: 0;
+    color: #525659;
 }
